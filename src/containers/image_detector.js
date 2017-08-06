@@ -43,7 +43,7 @@ class ImageDetector extends Component {
 		const low = this.state.low;
 		const high = this.state.high;
 		return(
-			<div>
+			<div style={{marginTop:20}}>
 				<div className="col-xs-6 small-pic text-xs-center ">
 					<img src={`${image}`} />
 				</div>
